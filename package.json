@@ -24,7 +24,9 @@
     "test": "npm run lint && npm run test:e2e",
     "test:e2e": "cross-env PORT=4040 start-server-and-test dev:shell http://localhost:4040 test:e2e:run",
     "test:e2e:run": "cypress run --config baseUrl=http://localhost:4040",
-    "test:open": "cypress open --config baseUrl=http://localhost:8100"
+    "test:open": "cypress open --config baseUrl=http://localhost:8100",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -39,7 +41,7 @@
   "devDependencies": {
     "autoprefixer": "^9.1.5",
     "cross-env": "^5.2.0",
-    "cypress": "^3.1.0",
+    "cypress": "^4.12.0",
     "eslint": "^5.6.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-cypress": "^2.0.1",
@@ -57,5 +59,9 @@
   },
   "engines": {
     "node": ">=8.10"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.503.0"
   }
 }
