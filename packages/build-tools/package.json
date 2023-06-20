@@ -9,7 +9,7 @@
     "css-loader": "^1.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "postcss-loader": "^3.0.0",
-    "stylus": "^0.54.5",
+    "stylus": "^0.56.0",
     "stylus-loader": "^3.0.1",
     "style-resources-loader": "^1.2.1",
     "url-loader": "^1.1.1",
