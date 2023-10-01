@@ -6,9 +6,9 @@
   "dependencies": {
     "buble": "^0.19.0",
     "buble-loader": "^0.5.1",
-    "css-loader": "^1.0.0",
+    "css-loader": "^5.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "postcss-loader": "^3.0.0",
+    "postcss-loader": "^4.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
     "style-resources-loader": "^1.2.1",
