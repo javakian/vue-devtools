@@ -37,20 +37,20 @@
   },
   "homepage": "https://github.com/vuejs/vue-devtools#readme",
   "devDependencies": {
-    "autoprefixer": "^9.1.5",
-    "cross-env": "^5.2.0",
-    "cypress": "^3.1.0",
-    "eslint": "^5.6.0",
+    "autoprefixer": "^10.2.6",
+    "cross-env": "^6.0.0",
+    "cypress": "^4.9.0",
+    "eslint": "^8.46.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-cypress": "^2.0.1",
-    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-import": "^2.27.4",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^5.0.0-beta.3",
-    "inquirer": "^6.2.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "inquirer": "^9.0.0",
     "semver": "^5.5.1",
-    "start-server-and-test": "^1.7.1"
+    "start-server-and-test": "^1.15.3"
   },
   "resolutions": {
     "cypress": "=3.4.1"
